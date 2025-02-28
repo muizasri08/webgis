@@ -48,7 +48,7 @@ lyr_mergePA_1.set('fieldAliases', {'FID': 'FID', 'no lot': 'no lot', 'area': 'ar
 lyr_mergetandasempadan_2.set('fieldAliases', {'FID': 'FID', 'vertex_ind': 'vertex_ind', 'vertex_par': 'vertex_par', 'vertex_p_1': 'vertex_p_1', 'vertex_p_2': 'vertex_p_2', 'distance': 'distance', 'angle': 'angle', 'layer': 'layer', 'path': 'path', });
 lyr_mergePA_1.set('fieldImages', {'FID': '', 'no lot': '', 'area': '', 'tsp — pemi': '', 'tsp — hak': '', 'tsp — ha_1': '', ' no lot': '', 'no  lot': '', 'layer': '', 'path': '', });
 lyr_mergetandasempadan_2.set('fieldImages', {'FID': '', 'vertex_ind': '', 'vertex_par': '', 'vertex_p_1': '', 'vertex_p_2': '', 'distance': '', 'angle': '', 'layer': '', 'path': '', });
-lyr_mergePA_1.set('fieldLabels', {'FID': 'no label', 'no lot': 'no label', 'area': 'no label', 'tsp — pemi': 'no label', 'tsp — hak': 'no label', 'tsp — ha_1': 'no label', ' no lot': 'no label', 'no  lot': 'no label', 'layer': 'no label', 'path': 'no label', });
+lyr_mergePA_1.set('fieldLabels', {'FID': 'hidden field', 'no lot': 'header label - visible with data', 'area': 'header label - visible with data', 'tsp — pemi': 'no label', 'tsp — hak': 'no label', 'tsp — ha_1': 'no label', ' no lot': 'header label - visible with data', 'no  lot': 'header label - visible with data', 'layer': 'hidden field', 'path': 'hidden field', });
 lyr_mergetandasempadan_2.set('fieldLabels', {'FID': 'no label', 'vertex_ind': 'no label', 'vertex_par': 'no label', 'vertex_p_1': 'no label', 'vertex_p_2': 'no label', 'distance': 'no label', 'angle': 'no label', 'layer': 'no label', 'path': 'no label', });
 lyr_mergetandasempadan_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
